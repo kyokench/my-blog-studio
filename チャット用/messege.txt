@@ -1,0 +1,32 @@
+C:\Users\kyokench\my-blog-frontend>../
+'..' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\kyokench\my-blog-frontend>cd ../
+
+C:\Users\kyokench>cd my-blog-studio
+
+C:\Users\kyokench\my-blog-studio>npm run deploy
+
+> my-blog@1.0.0 deploy
+> sanity deploy
+
+✓ Checking project info
+? Select existing studio hostname myblog-studio
+i Building with auto-updates enabled
+✓ Clean output folder (5ms)
+✓ Build Sanity Studio (831ms)
+✓ Extracted manifest (5343ms)
+↳ Read manifest from C:\Users\kyokench\my-blog-studio\dist\static\create-manifest.json (last modified: 2025-07-07T15:25:22.122Z)
+✓ Deployed 1/1 schemas
+↳ List deployed schemas with: sanity schema list
+✓ Verifying local content
+✓ Deploying to sanity.studio
+
+Success! Studio deployed to https://myblog-studio.sanity.studio/
+
+Add studioHost: 'myblog-studio'
+to defineCliConfig root properties in sanity.cli.js or sanity.cli.ts
+to avoid prompting for hostname on next deploy.
+
+C:\Users\kyokench\my-blog-studio>

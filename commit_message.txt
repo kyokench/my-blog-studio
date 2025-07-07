@@ -1,0 +1,5 @@
+feat: Add category schema and reference to post
+
+- Create a new schema for categories.
+- Add a reference field to the post schema to allow associating posts with categories.
+- Register the new category schema.
